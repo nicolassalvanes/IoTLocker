@@ -4,7 +4,6 @@
     <string name="service_url">http://demo1947757.mockable.io</string>
     <string name="admin_validate_path">/locker/admin/validate</string>
 
-    <!-- Strings related to login -->
     <string name="prompt_password">Clave de administrador</string>
     <string name="action_sign_in">Ingresar</string>
     <string name="error_invalid_password">La clave debe tener 4 dígitos</string>
@@ -16,6 +15,9 @@
     <string name="title_activity_main">IoTLocker Admin</string>
     <string name="navigation_drawer_open">Abrir opciones</string>
     <string name="navigation_drawer_close">Cerrar opciones</string>
-    <string name="action_settings">Configuracion</string>
+
+    <string name="navigation_drawer_status_title">Estado</string>
+    <string name="navigation_drawer_manage_title">Configuración</string>
+    <string name="navigation_drawer_about_title">Acerca de..</string>
 
 </resources>
