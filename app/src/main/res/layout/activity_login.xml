@@ -58,6 +58,43 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Patron"
+                android:id="@+id/titlePatron"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Aca se vera patron"
+                android:id="@+id/textPatron"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaciar Patron"
+                android:id="@+id/buttonVaciar"
+                android:layout_gravity="center_horizontal"
+                android:onClick="vaciarPatron" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aceptar Patron"
+                android:id="@+id/buttonAceptarPatron"
+                android:layout_gravity="center_horizontal"
+                android:onClick="aceptarPatron" />
+
         </LinearLayout>
 
     </ScrollView>
